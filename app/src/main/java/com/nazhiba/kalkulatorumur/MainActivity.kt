@@ -4,16 +4,21 @@ import android.app.DatePickerDialog
 import android.icu.util.Calendar
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
+
+    //
+    var tvselectedDate:TextView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         // penggunaan on clik listener
         val button = findViewById<Button>(R.id.button)
+        tvselectedDate = findViewById(R.id.textView)
         button.setOnClickListener(){
 
             // pemangilan datapicker
