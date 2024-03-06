@@ -51,15 +51,16 @@
         app:layout_constraintVertical_bias="0.3" />
 
     <TextView
+        android:id="@+id/tvageinMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
         android:padding="10dp"
         android:text="140000"
         android:textColor="#f1faee"
+
+
         android:textSize="34sp"
-
-
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,15 +70,16 @@
         app:layout_constraintVertical_bias="0.793" />
 
     <TextView
+        android:id="@+id/tvselecteddate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
         android:padding="10dp"
         android:text="31.05.2004"
         android:textColor="#FFFFFF"
+
+
         android:textSize="24sp"
-
-
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
